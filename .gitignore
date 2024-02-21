@@ -1,0 +1,16 @@
+*.ipynb
+chromedriver.exe
+*test*
+*old*
+*.json
+myenv
+.env
+venv
+yfinance.cache
+*.rar
+*.webp
+*.jpg
+*.jpeg
+*.png
+*.svg
+cek.py
