@@ -2,7 +2,6 @@
 chromedriver.exe
 *test*
 *old*
-*.json
 myenv
 .env
 venv

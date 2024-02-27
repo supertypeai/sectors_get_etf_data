@@ -3,7 +3,7 @@ name: run main.py
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 7,14,28 * *' 
+    - cron: '0 0 7,21 * *' 
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
         env:
             SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
             SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-        run: python main.py
+        run: python etf_etfdb.py
           
       - name: commit files
         run: |
